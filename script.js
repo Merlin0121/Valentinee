@@ -3,7 +3,7 @@ const codeInput = document.getElementById('code');
 const submitBtn = document.getElementById('submit-btn');
 const resultDiv = document.getElementById('result');
 
-const secretCode = 'Ánh'; // Replace with your secret code
+const secretCode = 'baby'; // Replace with your secret code
 const nextPageUrl = 'main.html'; // Replace with the URL of the new page
 
 form.addEventListener('submit', (e) => {
@@ -33,4 +33,5 @@ form.addEventListener('submit', (e) => {
             confirmButtonText: 'Retry'
         });
     }
+
 });
